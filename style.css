@@ -1,0 +1,139 @@
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+.header{
+    z-index: 1;
+    width: 100%;
+    position: fixed;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    align-items: center;
+    background: black;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.header img {
+    height: 50px;
+    margin-left: 10px;
+}
+.header nav {
+    flex-grow: 1;
+    text-align: right;
+    padding-right: 30px;
+}
+.header nav a {
+    color: seashell;
+    margin: 10px;
+    list-style: none;
+}
+
+.body {
+    opacity: 0.9;
+    width: 1200px;
+    margin: auto;
+    padding-top: 69px;
+}
+
+.banner {
+    height: 700px;
+    width: 1200px;
+
+    display: flex;
+    justify-content: center;
+
+    background-image: url(./imgs/img-mission-background.jpg);
+}
+
+.mission {
+    width: 100%;
+    margin: auto 0;
+    text-align: center;
+    background: black;
+}
+
+.mission h2,
+.mission h4 {
+    margin: 0;
+    padding: 10px;
+}
+
+.products {
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+.products .items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.products .items .item  {
+    align-items: center;
+    padding: 10px;
+}
+
+.products .items .item img {
+    width: 300px;
+    height: 200px;
+}
+.products .items .item span {
+    display: block;
+    text-align: center;
+    padding: 5px;
+}
+
+
+.locations{
+    height: 500px;
+    width: 1200px;
+
+    text-align: center;
+    padding-top: 25px;
+
+    background-image: url(./imgs/img-locations-background.jpg);
+}
+.locations h3 {
+    margin: 0;
+    padding: 10px;
+}
+
+.locations .items-location {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.locations .items-location .location{
+
+    padding: 10px;
+    margin: 20px;
+    background-color: black;
+    flex-basis: 280px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.contact{
+    height: 200px;
+    text-align: center;
+}
+
+footer {
+    text-align: left;
+    padding-left: 20px;
+    font-size: 18px;
+}
